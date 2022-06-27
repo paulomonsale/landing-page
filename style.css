@@ -122,6 +122,15 @@ button {
   gap: 2px;
 }
 
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #button-1 {
   border: none;
   padding: 8px 32px;
@@ -195,6 +204,10 @@ button {
   text-align: center;
   color: #424750;
   margin-top: 8px;
+}
+
+.footer p {
+  font-size: 15px;
 }
 
 a,
