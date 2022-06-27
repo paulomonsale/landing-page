@@ -21,11 +21,9 @@ a {
 }
 
 button {
-  border: none;
-  border-radius: 5px;
   background-color: #3882F6;
-  padding: 8px 32px;
   font-weight: 700;
+  border-radius: 5px;
 }
 
 .header {
@@ -100,6 +98,35 @@ button {
   align-items: center;
 }
 
+.section-4 {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-2 {
+  width: 600px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 8px;
+  padding: 40px 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.statement {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+#button-1 {
+  border: none;
+  padding: 8px 32px;
+}
+
 #quote {
   color: #1F2937;
   font-style: italic;
@@ -114,6 +141,25 @@ button {
   text-align: end;
   width: 790px;
   margin-top: 0;
+}
+
+#call-to-action {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+#sign-up {
+  color: #E5E7EB;
+  font-size: 14px;
+  margin: 0;
+}
+
+#button-2 {
+  color: #F9FAF8;
+  height: 30px;
+  border: 2px solid #F9FAF8;
+  padding: 0 28px;
 }
 
 .header p {
